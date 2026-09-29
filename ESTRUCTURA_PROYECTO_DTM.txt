@@ -1,0 +1,16 @@
+PROYECTO DTM - ESTRUCTURA DE TRABAJO
+
+Estructura basada de forma simplificada en Cookiecutter Data Science (CCDS), una convención/template para organizar proyectos de Data Science de manera clara y reproducible.
+
+data/raw/       -> Datos originales sin modificar; acá va DATASET_DTM.csv.
+data/processed/ -> Datos ya limpiados, transformados y preparados para entrenar modelos.
+notebooks/      -> Notebooks Jupyter (.ipynb) para exploración, pruebas, análisis y experimentación.
+src/            -> Código Python reutilizable/definitivo para limpieza, preparación, entrenamiento y predicción.
+models/         -> Modelos entrenados guardados y, si corresponde, resultados asociados al modelo.
+
+Archivos que agregaremos en la raíz:
+README.md       -> Explica qué hace el proyecto y cómo usarlo.
+environment.yml -> Define Python y las dependencias necesarias para reproducir el entorno con Conda.
+.gitignore      -> Indica a Git qué archivos o carpetas no deben versionarse.
+
+Nota: Cookiecutter Data Science es una estructura/template con convenciones de organización para proyectos de Data Science.
