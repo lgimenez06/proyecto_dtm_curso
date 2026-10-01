@@ -1,0 +1,6 @@
+# Datos reales
+data/raw/
+data/processed/*
+
+# Único dataset que sí publicamos
+!data/processed/DATASET_DTM_SINTETICO.csv
